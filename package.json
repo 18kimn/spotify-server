@@ -8,7 +8,7 @@
     "run-ts": "node --loader ts-node/esm --experimental-specifier-resolution=node",
     "dev": "pnpm run-ts index.ts",
     "build": "tsc",
-    "start": "pnpm build && node --es-module-specifier-resolution=node build/server/index.js"
+    "start": "pnpm build && node --es-module-specifier-resolution=node build/index.js"
   },
   "author": "",
   "license": "ISC",
